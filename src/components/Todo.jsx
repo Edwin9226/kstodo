@@ -36,12 +36,13 @@ const Todo = ({ item, onUpdate, onDelete }) => {
   function TodoElement() {
     return (
       <div className="todoInfo ">
-        {item.task}
-        <Button onClick={() => setIsEdit(true)} variant="primary" type="submit">
+        <span className="todoTitle">{item.task}</span>
+        
+        <Button className="button" onClick={() => setIsEdit(true)} variant="primary" type="submit">
           Editar
         </Button>
 
-        <Button onClick={(e)=>onDelete(item.id)} variant="primary" type="submit">
+        <Button className="buttonDelete" onClick={(e)=>onDelete(item.id)} variant="primary" type="submit">
           Eliminar
         </Button>
       </div>

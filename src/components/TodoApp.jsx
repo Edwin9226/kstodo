@@ -3,6 +3,8 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Todo from './Todo';
 
+import  '../styles/todoApp.css'
+
 
 const TodoApp = () => {
 
@@ -39,19 +41,19 @@ const TodoApp = () => {
         }
     
         function handleDelete(id){
-            const temp= todo.filter(item=> item.id != id);
+            const temp= todo.filter(item=> item.id !== id);
             setTodo(temp);
             setTask("");
 
         }
   return (
-    <div>
-        <Form onSubmit={handleSubmit}>
-      <Form.Group className="mb-3" >
-        <Form.Label>Tarea:</Form.Label>
-        <Form.Control  type="input" value={task} placeholder="Ingrese una tarea" onChange={handleChange} />
-      </Form.Group>
-      <Button 
+    <div className='todoContainer'>
+        <Form className='todoCreateForm' onSubmit={handleSubmit}>
+      
+       
+        <Form.Control className='todoInput'  type="input" value={task} placeholder="Ingrese una tarea" onChange={handleChange} />
+   
+      <Button className='buttonCreate'
       onClick={handleSubmit} 
       variant="primary" 
       value={"Create Todo"} 
@@ -60,7 +62,7 @@ const TodoApp = () => {
       </Button>
 
     </Form>
-    <div>
+    <div className='todosContainer'>
        { todo.map((item)=>(
             <Todo key={item.id} item={item} onUpdate={handleUpdate} onDelete={handleDelete}/>
         ) )}
