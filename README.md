@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-[live demo link](kstodo.vercel.app)
+[live demo link](https://kstodo.vercel.app)
 
 
 ## Run it locally
