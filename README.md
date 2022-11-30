@@ -1,11 +1,12 @@
-<img src='./src/assets/kruger.png'  >
+<img src='./src/assets/kruger.png' with='50px' >
 
-# Kruger Star Playground
+# Kruger Star todoList
 
->Primer proyecto Primer proyectoPrimer proyecto Primer proyecto Primer proyecto Primer proyecto Primer proyectovv Primer proyecto Primer proyecto Primer proyectoPrimer proyecto Primer proyecto Primer proyecto Primer proyectoPrimer proyecto
+>Proyecto de Todolist para el uso de hooks de use state.
 
-![](<./src/assets/playground.png>)
-<img src="./>
+<img src='./src/assets/playground.png' with='200px'>
+
+
 
 ## Build with
 
@@ -16,14 +17,14 @@
 
 ## Live Demo
 
-[live demo link](/)
+[live demo link](https://kstodo.vercel.app)
 
 
 ## Run it locally
 
 ### Setup
 
-- Clone this repo using ` https://github.com/Edwin9226/` 
+- Clone this repo using ` https://github.com/Edwin9226/kstodo.git` 
 
 ### Command
 - `npm install` 
@@ -32,10 +33,10 @@
 
 ## Author
 
-Clone this repo using `git clone https://github.com/Edwin9226/Nombre de su proyecto`
+Clone this repo using `git clone https://github.com/Edwin9226/kstodo`
 👤 **Edwin Miguel Pinchao Mueses**
 
-- GitHub: [@Edwin9226](https://github.com/Juanse7793)
+- GitHub: [@Edwin9226](https://github.com/Edwin9226)
 
 ##  Contributing
 - Juan Sotomayor - Tutor Kruger Star.
